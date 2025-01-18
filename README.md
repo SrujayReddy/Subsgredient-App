@@ -53,8 +53,8 @@ You’ll find additional logs and the `out/` directory included in this reposito
 1. **Clone the repository**:
 
 ~~~~bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/SrujayReddy/Subsgredient-App.git
+cd Subsgredient-App
 ~~~~
 
 2. **Ensure Java 11+** is installed.  
