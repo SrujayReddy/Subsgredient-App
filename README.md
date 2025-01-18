@@ -111,6 +111,7 @@ Compiles and runs all JUnit 5 tests for the frontend.
 
 ## Project Structure
 
+```
 .
 ├── BackendDeveloperTests.java
 ├── BackendImplementation.java
@@ -132,8 +133,9 @@ Compiles and runs all JUnit 5 tests for the frontend.
 ├── RedBlackTree.java
 ├── SortedCollectionInterface.java
 └── TextUITester.java
+```
 
-- `out/` and `log` are included for demonstration logs, class outputs, etc.
+- **`out/`** and **`log`** are included for demonstration logs, class outputs, etc.
 
 ---
 
