@@ -112,27 +112,33 @@ Compiles and runs all JUnit 5 tests for the frontend.
 ## Project Structure
 
 ```
-.
-├── BackendDeveloperTests.java
-├── BackendImplementation.java
-├── BackendInterface.java
-├── BinarySearchTree.java
-├── FrontendDev.java
-├── FrontendInterface.java
-├── FrontendTests.java
-├── Ingredient.java
-├── IngredientInterface.java
-├── IngredientPlaceholder.java
-├── ingredients.csv
-├── IterableMultiKeyRBT.java
-├── KeyList.java
-├── KeyListInterface.java
+Subsgredient/
+├── backend/
+│   ├── BackendImplementation.java
+│   ├── BackendInterface.java
+│   ├── BinarySearchTree.java
+│   ├── RedBlackTree.java
+│   ├── SortedCollectionInterface.java
+│   ├── Ingredient.java
+│   ├── IngredientInterface.java
+│   ├── IngredientPlaceholder.java
+│   ├── IterableMultiKeyRBT.java
+│   ├── KeyList.java
+│   └── KeyListInterface.java
+├── frontend/
+│   ├── FrontendDev.java
+│   ├── FrontendInterface.java
+│   └── TextUITester.java
+├── tests/
+│   ├── BackendDeveloperTests.java
+│   └── FrontendTests.java
+├── data/
+│   └── ingredients.csv
 ├── log
-├── Makefile
 ├── out/
-├── RedBlackTree.java
-├── SortedCollectionInterface.java
-└── TextUITester.java
+├── Makefile
+├── .gitignore
+└── README.md
 ```
 
 - **`out/`** and **`log`** are included for demonstration logs, class outputs, etc.
