@@ -141,8 +141,8 @@ Compiles and runs all JUnit 5 tests for the frontend.
 
 ## Contributors
 
-- **Srujay Reddy Jakkidi**
-- **Katie**
+- **Srujay Reddy Jakkidi** *(Backend)*
+- **Katie** *(Frontend)*
 
 ---
 
