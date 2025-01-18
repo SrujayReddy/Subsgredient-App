@@ -1,0 +1,18 @@
+# Java class files
+*.class
+
+# Log files
+*.log
+log/
+
+# Output directories
+out/
+
+# IDE files
+*.iml
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db

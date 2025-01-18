@@ -1,0 +1,100 @@
+Script started on 2023-10-14 04:13:53+00:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="109" LINES="40"]
+$ git branch
+* backend
+  main
+
+$ git status
+On branch backend
+Your branch is up to date with 'origin/backend'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+    modified:   BackendDeveloperTests.java
+    modified:   BackendInterface.java
+    modified:   FrontendInterface.java
+    modified:   IngredientInterface.java
+    modified:   IterableMultiKeySortedCollectionInterface.java
+    modified:   KeyListInterface.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+    BackendImplementation.java
+    BinarySearchTree.java
+    Ingredient.java
+    IngredientCalories.java
+    IngredientName.java
+    IterablePlaceholder.java
+    Makefile
+    RedBlackTree.java
+    log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+$ git add BackendImplementation.java
+
+$ git status
+On branch backend
+Your branch is up to date with 'origin/backend'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+    new file:   BackendImplementation.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+    modified:   BackendDeveloperTests.java
+    modified:   BackendInterface.java
+    modified:   FrontendInterface.java
+    modified:   IngredientInterface.java
+    modified:   IterableMultiKeySortedCollectionInterface.java
+    modified:   KeyListInterface.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+    BinarySearchTree.java
+    Ingredient.java
+    IngredientCalories.java
+    IngredientName.java
+    IterablePlaceholder.java
+    Makefile
+    RedBlackTree.java
+    log
+
+$ git add *
+
+$ ls
+BackendDeveloperTests.java  IngredientCalories.java         Makefile
+BackendImplementation.java  IngredientInterface.java        RedBlackTree.java
+BackendInterface.java       IngredientName.java             SortedCollectionInterface.java
+BinarySearchTree.java       IterableMultiKeySortedCollectionInterface.java
+FrontendInterface.java      IterablePlaceholder.java
+Ingredient.java             KeyListInterface.java
+ingredients.csv             log
+
+$ git status
+On branch backend
+Your branch is up to date with 'origin/backend'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+    modified:   BackendDeveloperTests.java
+    new file:   BackendImplementation.java
+    modified:   BackendInterface.java
+    new file:   BinarySearchTree.java
+    modified:   FrontendInterface.java
+    new file:   Ingredient.java
+    new file:   IngredientCalories.java
+    modified:   IngredientInterface.java
+    new file:   IngredientName.java
+    new file:   IterableMultiKeySortedCollectionInterface.java
+    new file:   IterablePlaceholder.java
+    new file:   KeyListInterface.java
+    new file:   Makefile
+    new file:   RedBlackTree.java
+    new file:   log
+    new file:   ingredients.csv
+    modified:   SortedCollectionInterface.java
+
+Script done on 2023-10-14 04:14:12+00:00
